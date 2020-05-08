@@ -1,0 +1,140 @@
+﻿body {
+    color: #fff;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+    .container img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 30px;
+        color: #097fff;
+        text-transform: uppercase;
+    }
+
+    .container .frmdiv {
+        width: 800px;
+        margin: 0 auto 40px;
+        background-color: #5083ba;
+        padding: 40px;
+        border-radius: 15px;
+    }
+
+        .container .frmdiv div {
+            padding: 10px 0;
+        }
+
+            .container .frmdiv div label {
+                color: #fff;
+                width: 190px;
+                text-transform: uppercase;
+                display: inline-block;
+            }
+
+            .container .frmdiv div span {
+                color: #fff;
+                padding-left: 25px;
+            }
+
+.divqualification {
+}
+
+    .divqualification .divlbl {
+        float: left;
+    }
+
+    .divqualification .divtbl {
+        float: left;
+        width: 450px;
+    }
+
+        .divqualification .divtbl table tr td input[type="text"],
+        .divqualification .divtbl table tr td input[type="number"] {
+            width: 150px;
+        }
+
+.container .frmdiv .btndiv {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 50px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    font-weight: bold;
+}
+
+    .btn:hover {
+        border-color: #06458a;
+        background-color: #5083ba;
+        color: #fff;
+    }
+
+input, select, textarea {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+    input:focus, textarea:focus {
+        background-color: #efebeb;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+/*Welcome.html css*/
+.welcome .container {
+    text-align: center;
+    background-color: rgba(246, 238, 238, 0.3);
+    border:1px solid #5083ba;
+    border-radius: 50px;
+    padding-bottom: 60px;
+}
+
+    .welcome .container img {
+        width: 330px;
+    }
+
+    .welcome .container h1 {
+        color: #43c109;
+        text-transform: none;
+        font-size: 44px;
+    }
+
+    .welcome .container h3 {
+        color: #0b7bf5;
+        text-transform: none;
+        font-size: 26px;
+    }
+
+    .welcome .container a {
+        font-weight: bold;
+        padding: 10px 60px;
+        background-color: #06458a;
+        color: #fff;
+        border: 2px solid #097fff;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+
+        .welcome .container a:hover {
+            border-color: #06458a;
+            background-color: #5083ba;
+            color: #fff;
+        }
